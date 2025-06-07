@@ -1,0 +1,39 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║                    🧠 RazonbilstroOS                         ║
+║                   Neural Agent v2.1.0                      ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  🎯 Sistema Operativo con IA Integrada                      ║
+║  🔧 Optimizado para Lenovo ThinkPad T480                    ║
+║  🧠 Núcleo C.A- Razonbilstro (94.18% precisión)            ║
+║  🎥 Vision Cam Module (91.2% precisión)                     ║
+║  🤖 Pwnagotchi AI (Nivel 4)                                 ║
+║  🔒 27 Herramientas de Seguridad                            ║
+║                                                              ║
+║  📦 Requisitos:                                              ║
+║  • Intel Core i7 8ª gen                                     ║
+║  • 16GB RAM DDR4                                            ║  
+║  • 500GB SSD                                                ║
+║  • UEFI Boot                                                ║
+║                                                              ║
+║  🌐 Conectividad:                                            ║
+║  • WiFi: Totalplay-2.4G-bd28                               ║
+║  • Idiomas: Español MX / English US                         ║
+║  • Teclado: ES-MX (ñ) / US                                  ║
+║                                                              ║
+║  🚀 Características:                                         ║
+║  • Arranque UEFI optimizado                                 ║
+║  • Particionado inteligente                                 ║
+║  • Saludo por voz integrado                                 ║
+║  • Blue Theme Desktop                                        ║
+║  • Dashboard web completo                                    ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+            🎉 ¡Lista para Instalación! 🎉
+            
+    Archivo ISO: RazonbilstroOS-v2.1.0-amd64.iso
+    Tamaño estimado: ~4.5GB
+    Tipo de arranque: UEFI únicamente
+    Instalación estimada: 15-30 minutos

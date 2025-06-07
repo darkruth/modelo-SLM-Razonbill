@@ -1,0 +1,32 @@
+# Núcleo C.A- Razonbilstro - Requirements
+# Generated: 2025-05-26 00:51:52
+
+# Core dependencies
+numpy>=1.24.0
+flask>=2.3.0
+flask-sqlalchemy>=3.0.0
+psycopg2-binary>=2.9.0
+email-validator>=2.0.0
+gunicorn>=21.0.0
+
+# Machine Learning & Neural Networks
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Scraping & Data Extraction
+requests>=2.31.0
+trafilatura>=1.6.0
+
+# CLI Tools Integration
+click>=8.1.0
+rich>=13.0.0
+
+# Development & Testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: Security Tools (if available)
+# cryptography>=41.0.0
+# pynacl>=1.5.0

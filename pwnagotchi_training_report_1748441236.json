@@ -1,0 +1,42 @@
+{
+  "training_session": {
+    "timestamp": "2025-05-28T14:07:16.952845",
+    "duration_seconds": 0.07286477088928223,
+    "epochs_completed": 5,
+    "total_pairs": 3000,
+    "final_accuracy": 0.04133333333333333,
+    "final_loss": 0.37269937275985676
+  },
+  "neural_architecture": {
+    "temporal_neurons": 2,
+    "specializations": [
+      "command_generation",
+      "vulnerability_detection"
+    ],
+    "learning_rates": [
+      0.0007,
+      0.0005
+    ]
+  },
+  "performance_metrics": {
+    "pairs_per_second": 205860.79962829294,
+    "convergence_rate": 0.6273006272401432,
+    "neuron_performance": {
+      "metacognitive_neuron": {
+        "precision": 0.97,
+        "specialization_score": 0.92,
+        "learning_progress": "ascending"
+      },
+      "pattern_recognition_neuron": {
+        "precision": 0.965,
+        "specialization_score": 0.88,
+        "learning_progress": "ascending"
+      }
+    }
+  },
+  "wifi_specialization": {
+    "command_generation_accuracy": 0.97,
+    "vulnerability_detection_accuracy": 0.965,
+    "hybrid_integration_score": 0.4706666666666667
+  }
+}

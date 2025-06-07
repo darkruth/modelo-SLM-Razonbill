@@ -1,0 +1,96 @@
+🚀 INFORME DE PRUEBA DE ESTRÉS - NÚCLEO C.A- RAZONBILSTRO
+======================================================================
+
+📊 MÉTRICAS GENERALES:
+   • Total de pruebas: 30
+   • Pruebas exitosas: 30
+   • Pruebas fallidas: 0
+   • Tasa de éxito: 100.0%
+   • Duración total: 6.4s
+   • Velocidad: 4.7 pruebas/seg
+
+📋 RESULTADOS POR CATEGORÍA:
+
+   🔸 RECONOCIMIENTO:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.14s
+      • Herramientas: bash, nmap
+
+   🔸 AUDITORIA_WIFI:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.13s
+      • Herramientas: bash, nmap, gobuster
+
+   🔸 ANALISIS_WEB:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.57s
+      • Herramientas: gobuster, nmap, sqlmap, nikto
+
+   🔸 CRACKING:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.13s
+      • Herramientas: bash, john
+
+   🔸 TRAFICO:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.17s
+      • Herramientas: bash, nmap, tcpdump, nikto
+
+   🔸 SISTEMA:
+      • Pruebas: 5/5
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.13s
+      • Herramientas: bash, tcpdump, gobuster
+
+🔧 ANÁLISIS DE HERRAMIENTAS:
+
+   🔹 nmap:
+      • Usos: 9
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+   🔹 bash:
+      • Usos: 9
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+   🔹 gobuster:
+      • Usos: 4
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+   🔹 nikto:
+      • Usos: 2
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+   🔹 sqlmap:
+      • Usos: 1
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ❌ No
+
+   🔹 john:
+      • Usos: 3
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+   🔹 tcpdump:
+      • Usos: 2
+      • Éxito: 100.0%
+      • Tiempo promedio: 0.00s
+      • Disponible: ✅ Sí
+
+💡 RECOMENDACIONES:
+   1. Excelente integración - sistema listo para producción
+   2. Herramienta más utilizada: nmap - considerar optimización específica

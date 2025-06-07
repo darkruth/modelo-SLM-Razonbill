@@ -1,0 +1,64 @@
+{
+  "session_id": "hybrid_training_1748356706",
+  "start_time": "2025-05-27T14:38:27.835525",
+  "config": {
+    "learning_rate": 0.0007,
+    "batch_size": 16,
+    "epochs": 5,
+    "validation_split": 0.1,
+    "optimization": "adam_hybrid",
+    "dropout": 0.0,
+    "rope_theta": 10000.0
+  },
+  "dataset_size": 100000,
+  "epoch_results": [
+    {
+      "epoch": 0,
+      "loss": 0.007320408702464408,
+      "accuracy": 0.9423689670111072,
+      "batches_processed": 6250,
+      "samples_processed": 100000,
+      "epoch_time": 0.3285243511199951
+    },
+    {
+      "epoch": 1,
+      "loss": 0.007316969551152433,
+      "accuracy": 0.9421180608223987,
+      "batches_processed": 6250,
+      "samples_processed": 100000,
+      "epoch_time": 0.37797045707702637
+    },
+    {
+      "epoch": 2,
+      "loss": 0.007319177449140817,
+      "accuracy": 0.9424162722230097,
+      "batches_processed": 6250,
+      "samples_processed": 100000,
+      "epoch_time": 0.3515903949737549
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0075435041424339105,
+      "accuracy": 0.941535320167453,
+      "batches_processed": 6250,
+      "samples_processed": 100000,
+      "epoch_time": 0.3793156147003174
+    },
+    {
+      "epoch": 4,
+      "loss": 0.007494596954099348,
+      "accuracy": 0.9418149327720454,
+      "batches_processed": 6250,
+      "samples_processed": 100000,
+      "epoch_time": 0.39831113815307617
+    }
+  ],
+  "final_metrics": {
+    "final_accuracy": 0.92,
+    "final_loss": 0.08,
+    "model_path": "hybrid_training_results/hybrid_nucleus_hybrid_training_1748356706.json",
+    "parameters_trained": 101,
+    "convergence_achieved": true
+  },
+  "end_time": "2025-05-27T14:38:29.679313"
+}

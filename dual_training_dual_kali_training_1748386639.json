@@ -1,0 +1,52 @@
+{
+  "session_id": "dual_kali_training_1748386639",
+  "start_time": "2025-05-27T22:57:19.845049",
+  "dataset_type": "kali_linux_authentic",
+  "dual_observation": true,
+  "epoch_results": [
+    {
+      "epoch": 0,
+      "loss": 0.36012039936428275,
+      "accuracy": 0.42468563641577606,
+      "metacognitive_score": 0.85,
+      "vision_score": 0.8,
+      "batches_processed": 1,
+      "epoch_time": 0.00027489662170410156
+    },
+    {
+      "epoch": 1,
+      "loss": 0.042461545712853266,
+      "accuracy": 0.8001274295497591,
+      "metacognitive_score": 0.87,
+      "vision_score": 0.8300000000000001,
+      "batches_processed": 1,
+      "epoch_time": 0.00023055076599121094
+    },
+    {
+      "epoch": 2,
+      "loss": 0.04139296913322768,
+      "accuracy": 0.8033143915521304,
+      "metacognitive_score": 0.89,
+      "vision_score": 0.8600000000000001,
+      "batches_processed": 1,
+      "epoch_time": 0.00014662742614746094
+    }
+  ],
+  "dual_insights": {
+    "metacognitive_efficiency": 0.9,
+    "vision_efficiency": 0.88,
+    "dual_synergy": 0.89,
+    "pattern_recognition": 3,
+    "metacognitive_insights": {
+      "metacompilation": "successful",
+      "adaptation_detected": true,
+      "learning_optimization": "active"
+    },
+    "visual_patterns": {
+      "kali_tools_recognized": true,
+      "command_screenshots": "processed",
+      "ocr_training": "enhanced"
+    },
+    "combined_learning": true
+  }
+}

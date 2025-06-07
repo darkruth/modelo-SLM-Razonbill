@@ -1,0 +1,10 @@
+{
+  "efficiency": 0.88,
+  "patterns_detected": 3,
+  "visual_patterns": {
+    "kali_tools_recognized": true,
+    "command_screenshots": "processed",
+    "ocr_training": "enhanced"
+  },
+  "session_duration": 0.044156551361083984
+}

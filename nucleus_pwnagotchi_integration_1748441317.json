@@ -1,0 +1,122 @@
+{
+  "integration_test_session": {
+    "timestamp": "2025-05-28T14:08:37.312329",
+    "total_tests": 12,
+    "wifi_tests": 2,
+    "non_wifi_tests": 10,
+    "overall_success_rate": 0.0
+  },
+  "pwnagotchi_integration": {
+    "invocations": 0,
+    "success_rate": 0.0,
+    "ai_enhanced_responses": 0,
+    "average_ai_level": 1.0
+  },
+  "nucleus_data_processing": {
+    "interpretations_generated": 0,
+    "integration_quality": "high",
+    "synthesis_capability": "advanced",
+    "context_awareness": "wifi_specialized"
+  },
+  "system_performance": {
+    "average_response_time": 0.0011842052141825359,
+    "tool_distribution": {
+      "nmap": 6,
+      "bash": 3,
+      "tcpdump": 1,
+      "nikto": 1,
+      "gobuster": 1
+    },
+    "integration_effectiveness": 0.0
+  },
+  "detailed_results": [
+    {
+      "request": "Necesito escanear todas las redes WiFi del área para buscar vulnerabilidades",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0005223751068115234
+    },
+    {
+      "request": "Captura el handshake WPA2 de la red 'MOVISTAR_HOME' para análisis",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0004761219024658203
+    },
+    {
+      "request": "Realiza un ataque de deautenticación contra dispositivos conectados",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "bash",
+      "success": false,
+      "duration": 0.0004162788391113281
+    },
+    {
+      "request": "Crackea la contraseña de la red WiFi que acabamos de capturar",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0004928112030029297
+    },
+    {
+      "request": "Monitorea el tráfico inalámbrico en busca de patrones sospechosos",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "bash",
+      "success": false,
+      "duration": 0.0019500255584716797
+    },
+    {
+      "request": "Activa modo monitor en la interfaz para captura de paquetes",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "tcpdump",
+      "success": false,
+      "duration": 0.002971649169921875
+    },
+    {
+      "request": "Analiza las vulnerabilidades de todas las redes WEP detectadas",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0042743682861328125
+    },
+    {
+      "request": "Ejecuta un survey completo de redes inalámbricas del entorno",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0008301734924316406
+    },
+    {
+      "request": "Escanea los puertos del servidor 192.168.1.100",
+      "tool": "nmap",
+      "category": "Reconocimiento de Red",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.0006830692291259766
+    },
+    {
+      "request": "Analiza vulnerabilidades web del sitio target.com",
+      "tool": "nikto",
+      "category": "Análisis Web",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.0004572868347167969
+    },
+    {
+      "request": "Comprime el directorio de logs del sistema",
+      "tool": "gobuster",
+      "category": "Enumeración Web",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.0006899833679199219
+    },
+    {
+      "request": "Monitorea procesos del sistema en tiempo real",
+      "tool": "bash",
+      "category": "Sistema General",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.000446319580078125
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "partition_table": "GPT",
+  "boot_type": "UEFI",
+  "partitions": {
+    "/boot/efi": {
+      "size": "512MB",
+      "filesystem": "vfat",
+      "flags": [
+        "boot",
+        "esp"
+      ],
+      "description": "Partición de arranque EFI"
+    },
+    "/boot": {
+      "size": "1GB",
+      "filesystem": "ext4",
+      "description": "Kernel y archivos de arranque"
+    },
+    "/": {
+      "size": "60GB",
+      "filesystem": "ext4",
+      "description": "Sistema raíz optimizado"
+    },
+    "/opt/razonbilstro": {
+      "size": "20GB",
+      "filesystem": "ext4",
+      "description": "Núcleo IA y módulos especializados"
+    },
+    "/home": {
+      "size": "remaining",
+      "filesystem": "ext4",
+      "description": "Datos de usuario y almacenamiento"
+    },
+    "swap": {
+      "size": "16GB",
+      "filesystem": "swap",
+      "description": "Memoria swap (igual a RAM)"
+    }
+  },
+  "optimizations": [
+    "Partición dedicada para núcleo IA",
+    "Swap dimensionado para 16GB RAM",
+    "Boot separado para actualizaciones seguras",
+    "Home en partición independiente"
+  ]
+}

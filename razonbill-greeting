@@ -1,0 +1,20 @@
+#!/bin/bash
+# Sistema de saludo por voz RazonbilstroOS
+
+# Verificar si espeak está disponible
+if command -v espeak > /dev/null; then
+    # Saludo en español
+    espeak -v es-mx -s 150 -p 50 "¡Buen día! Es un placer poder asistirle el día de hoy, soy Razonbill su agente en asistencia" &
+elif command -v festival > /dev/null; then
+    # Alternativa con festival
+    echo "¡Buen día! Es un placer poder asistirle el día de hoy, soy Razonbill su agente en asistencia" | festival --tts &
+elif command -v say > /dev/null; then
+    # Para macOS (si aplica)
+    say "¡Buen día! Es un placer poder asistirle el día de hoy, soy Razonbill su agente en asistencia" &
+else
+    # Fallback a notificación visual
+    notify-send "RazonbilstroOS" "¡Buen día! Es un placer poder asistirle el día de hoy, soy Razonbill su agente en asistencia"
+fi
+
+# Mostrar mensaje en terminal también
+echo "🤖 ¡Buen día! Es un placer poder asistirle el día de hoy, soy Razonbill su agente en asistencia"

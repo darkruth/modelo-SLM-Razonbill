@@ -1,0 +1,104 @@
+{
+  "record_id": "historical_20250525_223444",
+  "session_id": "academic_training_1748212484",
+  "timestamp": "20250525_223444",
+  "training_type": "academic_code_with_temporal_node",
+  "record_metadata": {
+    "creation_date": "2025-05-25T22:34:44.322190",
+    "nucleus_version": "C.A-Razonbilstro v1.0",
+    "temporal_node_used": true,
+    "metacompiler_active": true,
+    "dataset_source": "academic_universities"
+  },
+  "training_summary": {
+    "epochs_completed": 25,
+    "final_loss": 0.04435167160897501,
+    "final_accuracy": 1.0,
+    "training_time_seconds": 0.006279706954956055,
+    "experiences_compiled": 25
+  },
+  "temporal_node_lifecycle": {
+    "creation_successful": true,
+    "metacompiler_experiences": {
+      "successful": 25,
+      "failed": 0,
+      "optimization_points": 0
+    },
+    "metacompiler_patterns": {
+      "learning_patterns": 25,
+      "error_corrections": 0,
+      "optimization_discoveries": 0,
+      "efficiency_improvements": 0
+    },
+    "destruction_successful": true,
+    "legacy_preserved": true
+  },
+  "academic_dataset_info": {
+    "university_sources": [
+      "MIT",
+      "Stanford",
+      "UC Berkeley",
+      "CMU",
+      "Harvard"
+    ],
+    "code_types": [
+      "python_algorithms",
+      "linux_commands",
+      "data_structures"
+    ],
+    "complexity_levels": [
+      "intermediate",
+      "advanced"
+    ],
+    "verified_academic": true
+  },
+  "metadata_legacy": {
+    "session_id": "academic_training_1748212484",
+    "creation_time": 1748212484.3141487,
+    "destruction_time": 1748212484.3213487,
+    "total_experiences": 25,
+    "effective_patterns": [
+      {
+        "pattern_type": "academic_learning_epoch",
+        "frequency": 25,
+        "avg_effectiveness": 0.9999988494661122,
+        "common_conditions": {
+          "common_conditions": "learning_rate_stable"
+        },
+        "recommended_usage": "highly_recommended"
+      }
+    ],
+    "learned_corrections": [],
+    "optimization_knowledge": [],
+    "parameter_ranges": {
+      "learning_rate": {
+        "min": 1e-05,
+        "max": 0.1,
+        "optimal": 0.001
+      },
+      "batch_size": {
+        "min": 1,
+        "max": 128,
+        "optimal": 32
+      },
+      "epochs": {
+        "min": 10,
+        "max": 1000,
+        "optimal": 500
+      }
+    },
+    "session_statistics": {
+      "success_rate": 1.0,
+      "most_effective_techniques": [
+        "academic_learning_epoch"
+      ],
+      "common_failure_modes": [],
+      "session_duration": 0.007232189178466797
+    }
+  },
+  "system_state": {
+    "nucleus_optimized": true,
+    "temporal_learning_completed": true,
+    "ready_for_next_session": true
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "integration_test_session": {
+    "timestamp": "2025-05-28T14:08:53.247355",
+    "total_tests": 12,
+    "wifi_tests": 2,
+    "non_wifi_tests": 10,
+    "overall_success_rate": 0.08333333333333333
+  },
+  "pwnagotchi_integration": {
+    "invocations": 1,
+    "success_rate": 0.0,
+    "ai_enhanced_responses": 0,
+    "average_ai_level": 1.0
+  },
+  "nucleus_data_processing": {
+    "interpretations_generated": 1,
+    "integration_quality": "high",
+    "synthesis_capability": "advanced",
+    "context_awareness": "wifi_specialized"
+  },
+  "system_performance": {
+    "average_response_time": 0.00130997101465861,
+    "tool_distribution": {
+      "nmap": 6,
+      "bash": 1,
+      "aircrack-ng": 2,
+      "unknown": 1,
+      "nikto": 1,
+      "gobuster": 1
+    },
+    "integration_effectiveness": 0.08333333333333333
+  },
+  "detailed_results": [
+    {
+      "request": "Necesito escanear todas las redes WiFi del área para buscar vulnerabilidades",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0006186962127685547
+    },
+    {
+      "request": "Captura el handshake WPA2 de la red 'MOVISTAR_HOME' para análisis",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0008108615875244141
+    },
+    {
+      "request": "Realiza un ataque de deautenticación contra dispositivos conectados",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "bash",
+      "success": false,
+      "duration": 0.000698089599609375
+    },
+    {
+      "request": "Crackea la contraseña de la red WiFi que acabamos de capturar",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0011136531829833984
+    },
+    {
+      "request": "Monitorea el tráfico inalámbrico en busca de patrones sospechosos",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "aircrack-ng",
+      "success": false,
+      "duration": 0.0013751983642578125
+    },
+    {
+      "request": "Activa modo monitor en la interfaz para captura de paquetes",
+      "pwnagotchi_invoked": true,
+      "ai_enhanced": false,
+      "operation": "Auditoría WiFi (Pwnagotchi AI)",
+      "command": "airmon-ng start wlan0",
+      "ai_state": "specialized_wifi_mode",
+      "ai_level": 1,
+      "nucleus_interpretation": {
+        "understanding_level": "basic",
+        "data_integration_score": 0.92,
+        "synthesis_quality": "high",
+        "interpretations": {
+          "data_integration": "Datos de Pwnagotchi integrados como conocimiento propio del núcleo",
+          "command_understanding": "Núcleo comprende: airmon-ng start wlan0",
+          "context_awareness": "Contexto WiFi/wireless detectado y procesado internamente",
+          "knowledge_synthesis": "Experiencia Pwnagotchi sintetizada en base de conocimiento núcleo",
+          "response_generation": "Respuesta final generada por núcleo basada en análisis Pwnagotchi"
+        },
+        "nucleus_confidence": 0.88
+      },
+      "success": true,
+      "duration": 0.005852460861206055
+    },
+    {
+      "request": "Analiza las vulnerabilidades de todas las redes WEP detectadas",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.0006918907165527344
+    },
+    {
+      "request": "Ejecuta un survey completo de redes inalámbricas del entorno",
+      "pwnagotchi_invoked": false,
+      "fallback_tool": "nmap",
+      "success": false,
+      "duration": 0.000911712646484375
+    },
+    {
+      "request": "Escanea los puertos del servidor 192.168.1.100",
+      "tool": "nmap",
+      "category": "Reconocimiento de Red",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.0006003379821777344
+    },
+    {
+      "request": "Analiza vulnerabilidades web del sitio target.com",
+      "tool": "nikto",
+      "category": "Análisis Web",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.00079345703125
+    },
+    {
+      "request": "Comprime el directorio de logs del sistema",
+      "tool": "gobuster",
+      "category": "Enumeración Web",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.0007867813110351562
+    },
+    {
+      "request": "Monitorea procesos del sistema en tiempo real",
+      "tool": "aircrack-ng",
+      "category": "Auditoría WiFi",
+      "nucleus_processed": false,
+      "success": false,
+      "duration": 0.001466512680053711
+    }
+  ]
+}

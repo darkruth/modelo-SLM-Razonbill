@@ -1,0 +1,46 @@
+{
+  "learning_data": [
+    {
+      "timestamp": "2025-05-28T13:49:35.755008",
+      "request": "Escanear redes WiFi cercanas",
+      "operation": "scan",
+      "confidence": 0.5,
+      "success": false,
+      "experience_gained": 15
+    },
+    {
+      "timestamp": "2025-05-28T13:49:36.761839",
+      "request": "Capturar handshake WPA2 de la red objetivo",
+      "operation": "capture",
+      "confidence": 0.7,
+      "success": false,
+      "experience_gained": 45
+    },
+    {
+      "timestamp": "2025-05-28T13:49:38.768800",
+      "request": "Crackear contraseña WPA con diccionario",
+      "operation": "crack",
+      "confidence": 0.7,
+      "success": false,
+      "experience_gained": 85
+    },
+    {
+      "timestamp": "2025-05-28T14:08:53.234846",
+      "request": "Activa modo monitor en la interfaz para captura de paquetes",
+      "operation": "monitor_mode",
+      "confidence": 0.5,
+      "success": false,
+      "experience_gained": 10
+    }
+  ],
+  "experience_level": 2,
+  "networks_captured": 3,
+  "handshakes_collected": 1,
+  "personality": {
+    "curiosity": 70,
+    "aggression": 75,
+    "patience": 56,
+    "learning_rate": 95
+  },
+  "last_save": "2025-05-28T14:08:53.234936"
+}
