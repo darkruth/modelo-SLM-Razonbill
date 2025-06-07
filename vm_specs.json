@@ -1,0 +1,34 @@
+{
+  "vm_specifications": {
+    "name": "RazonbilstroOS_Test_VM",
+    "architecture": "x86_64",
+    "cpu_cores": 4,
+    "ram_gb": 8,
+    "disk_gb": 50,
+    "boot_mode": "UEFI",
+    "acceleration": "KVM"
+  },
+  "hardware_emulation": {
+    "cpu": "host",
+    "machine": "q35",
+    "display": "gtk",
+    "network": "user,hostfwd=tcp::8080-:5000",
+    "usb": "ehci,id=usb,bus=pci.0,addr=0x4",
+    "audio": "alsa"
+  },
+  "storage": {
+    "main_disk": "razonbilstro_vm.qcow2",
+    "iso_file": "RazonbilstroOS-v2.1.0-amd64.iso",
+    "format": "qcow2",
+    "cache": "writeback"
+  },
+  "network": {
+    "model": "virtio-net",
+    "mac_address": "52:54:00:12:34:56",
+    "port_forwarding": {
+      "ssh": "2222:22",
+      "web": "8080:5000",
+      "vnc": "5900:5900"
+    }
+  }
+}

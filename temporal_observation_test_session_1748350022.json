@@ -1,0 +1,30 @@
+{
+  "session_summary": {
+    "total_tests": 20,
+    "duration": 0.8578641414642334,
+    "success_rate": 1.0,
+    "average_accuracy": 0.05
+  },
+  "pattern_insights": {
+    "patterns_identified": 5
+  },
+  "metacognitive_evolution": {
+    "evolution_detected": true
+  },
+  "compiler_performance": {
+    "performance_level": "good"
+  },
+  "temporal_observations": {
+    "learning_trajectory": {
+      "trajectory": "improving"
+    },
+    "adaptation_patterns": {
+      "patterns": [
+        "quick_learning"
+      ]
+    },
+    "performance_trends": {
+      "trend": "positive"
+    }
+  }
+}

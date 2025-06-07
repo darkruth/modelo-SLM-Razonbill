@@ -1,0 +1,66 @@
+{
+  "desktop_name": "RazonbilstroOS",
+  "version": "1.0.0",
+  "architecture": "x86_64",
+  "build_timestamp": "2025-05-30T01:34:56.437621",
+  "components": {
+    "window_manager": "i3wm",
+    "status_bar": "polybar",
+    "audio_visualizer": "cava",
+    "terminal": "kitty",
+    "display_manager": "lightdm"
+  },
+  "packages_total": 31,
+  "gui_packages": {
+    "window_manager": [
+      "i3-wm",
+      "i3status",
+      "i3lock",
+      "rofi",
+      "polybar"
+    ],
+    "desktop_environment": [
+      "xorg",
+      "lightdm",
+      "gtk3",
+      "qt5",
+      "cairo",
+      "pango"
+    ],
+    "audio_system": [
+      "pulseaudio",
+      "alsa-utils",
+      "pavucontrol",
+      "audacity",
+      "cava"
+    ],
+    "multimedia": [
+      "ffmpeg",
+      "vlc",
+      "mpv",
+      "rhythmbox",
+      "gimp"
+    ],
+    "terminal_enhanced": [
+      "kitty",
+      "tmux",
+      "zsh",
+      "oh-my-zsh",
+      "neofetch"
+    ],
+    "fonts_icons": [
+      "fonts-firacode",
+      "fonts-noto",
+      "papirus-icon-theme",
+      "numix-icon-theme",
+      "font-awesome"
+    ]
+  },
+  "features": [
+    "Escritorio completo basado en imagen original",
+    "Colores cyan/negro idénticos",
+    "Visualizador de audio integrado",
+    "Núcleo C.A- Razonbilstro preinstalado",
+    "ISO booteable lista para distribución"
+  ]
+}

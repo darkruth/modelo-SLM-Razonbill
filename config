@@ -1,0 +1,96 @@
+[colors]
+; Colores basados en la imagen Razonbilstro
+background = #0a0a0a
+foreground = #00ffcc
+primary = #00ffcc
+secondary = #6272a4
+alert = #ff5555
+
+[bar/razonbilstro]
+width = 100%
+height = 30
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+padding-left = 2
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = FiraCode Nerd Font:pixelsize=10;1
+font-1 = Font Awesome 5 Free:pixelsize=10;1
+font-2 = Font Awesome 5 Brands:pixelsize=10;1
+
+modules-left = i3
+modules-center = date
+modules-right = pulseaudio cpu memory network
+
+tray-position = right
+tray-padding = 2
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+
+label-mode-padding = 2
+label-mode-foreground = ${colors.foreground}
+label-mode-background = ${colors.background}
+
+label-focused = %name%
+label-focused-background = ${colors.primary}
+label-focused-foreground = ${colors.background}
+label-focused-padding = 2
+
+label-unfocused = %name%
+label-unfocused-padding = 2
+
+label-visible = %name%
+label-visible-background = ${colors.secondary}
+label-visible-padding = 2
+
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+[module/date]
+type = internal/date
+interval = 5
+date = %Y-%m-%d
+time = %H:%M
+label = 🕒 %date% %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = 🔊 <bar-volume>
+label-volume = VOL %percentage%%
+label-muted = 🔇 muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = ${colors.primary}
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-fill = ─
+bar-volume-empty = ─
+bar-volume-empty-foreground = ${colors.secondary}
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "💻 "
+label = CPU %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "🧠 "
+label = RAM %percentage_used%%
+
+[module/network]
+type = internal/network
+interface = eth0
+interval = 3
+format-connected = 🌐 <label-connected>
+label-connected = %downspeed:9%
+format-disconnected = ❌ disconnected

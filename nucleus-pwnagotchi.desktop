@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pwnagotchi AI
+Comment=Sistema de auditoría WiFi
+Icon=network-wireless
+Exec=python3 /usr/local/bin/pwnagotchi_ai_module.py
+Categories=Network;Security;
+Terminal=false
+StartupNotify=true

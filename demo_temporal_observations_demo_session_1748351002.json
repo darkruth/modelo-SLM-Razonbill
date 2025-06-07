@@ -1,0 +1,333 @@
+{
+  "session_id": "demo_session_1748351002",
+  "start_time": 1748351002.849343,
+  "test_results": [
+    {
+      "block": "Seguridad",
+      "request": "Escanea puertos abiertos en 192.168.1.1",
+      "expected": "nmap -sS 192.168.1.1",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Escanea puertos abiertos This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 0.00015234947204589844,
+      "success": true
+    },
+    {
+      "block": "Seguridad",
+      "request": "Busca vulnerabilidades en servidor web",
+      "expected": "nikto -h http://servidor",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Busca vulnerabilidades en This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 4.601478576660156e-05,
+      "success": true
+    },
+    {
+      "block": "Seguridad",
+      "request": "Verifica integridad de archivos del sistema",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "Let me analyze that Verifica integridad de. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 4.6253204345703125e-05,
+      "success": true
+    },
+    {
+      "block": "Seguridad",
+      "request": "Analiza logs de seguridad recientes",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Analiza logs de This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.745887756347656e-05,
+      "success": true
+    },
+    {
+      "block": "Seguridad",
+      "request": "Encuentra archivos con permisos SUID",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "Let me analyze that Encuentra archivos con. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.626678466796875e-05,
+      "success": true
+    },
+    {
+      "block": "Administración",
+      "request": "Actualiza paquetes del sistema",
+      "expected": "sudo apt update && sudo apt upgrade -y",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "Let me analyze that Actualiza paquetes del. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 8.20159912109375e-05,
+      "success": true
+    },
+    {
+      "block": "Administración",
+      "request": "Reinicia el servicio SSH",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "Let me analyze that Reinicia el servicio. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 0.00011181831359863281,
+      "success": true
+    },
+    {
+      "block": "Administración",
+      "request": "Verifica uso de memoria",
+      "expected": "free -h",
+      "generated": "free -h",
+      "nucleus_response": "I'm thinking about Verifica uso de This is just my preliminary thought.",
+      "accuracy": 1.0,
+      "confidence": 0.85,
+      "execution_time": 0.00022745132446289062,
+      "success": true
+    },
+    {
+      "block": "Administración",
+      "request": "Lista servicios activos",
+      "expected": "systemctl list-units --type=service --state=active",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Lista servicios activos This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 9.965896606445312e-05,
+      "success": true
+    },
+    {
+      "block": "Administración",
+      "request": "Agrega usuario al grupo sudo",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Agrega usuario al This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 6.389617919921875e-05,
+      "success": true
+    },
+    {
+      "block": "Red",
+      "request": "Muestra conexiones de red activas",
+      "expected": "netstat -tulpn",
+      "generated": "netstat -tulpn",
+      "nucleus_response": "I'm thinking about Muestra conexiones de This is just my preliminary thought.",
+      "accuracy": 1.0,
+      "confidence": 0.85,
+      "execution_time": 6.437301635742188e-05,
+      "success": true
+    },
+    {
+      "block": "Red",
+      "request": "Prueba conectividad con Google DNS",
+      "expected": "ping -c 4 8.8.8.8",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Prueba conectividad con This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 0.00010180473327636719,
+      "success": true
+    },
+    {
+      "block": "Red",
+      "request": "Traza ruta hacia 8.8.8.8",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Traza ruta hacia This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 8.749961853027344e-05,
+      "success": true
+    },
+    {
+      "block": "Red",
+      "request": "Captura tráfico de red",
+      "expected": "comando_generico",
+      "generated": "apt [parámetros]",
+      "nucleus_response": "I'm thinking about Captura tráfico de This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 7.724761962890625e-05,
+      "success": true
+    },
+    {
+      "block": "Red",
+      "request": "Muestra tabla de enrutamiento",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Muestra tabla de This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 0.00013518333435058594,
+      "success": true
+    },
+    {
+      "block": "Programación",
+      "request": "Compila archivo C con optimización",
+      "expected": "gcc -O2 archivo.c -o programa",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Compila archivo C This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 6.532669067382812e-05,
+      "success": true
+    },
+    {
+      "block": "Programación",
+      "request": "Ejecuta script Python con argumentos",
+      "expected": "comando_generico",
+      "generated": "python [parámetros]",
+      "nucleus_response": "I'm thinking about Ejecuta script Python This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.030632019042969e-05,
+      "success": true
+    },
+    {
+      "block": "Programación",
+      "request": "Verifica sintaxis JavaScript",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Verifica sintaxis JavaScript This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.4836273193359375e-05,
+      "success": true
+    },
+    {
+      "block": "Programación",
+      "request": "Instala paquete npm globalmente",
+      "expected": "comando_generico",
+      "generated": "npm [parámetros]",
+      "nucleus_response": "I'm thinking about Instala paquete npm This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 0.0001761913299560547,
+      "success": true
+    },
+    {
+      "block": "Programación",
+      "request": "Ejecuta tests unitarios",
+      "expected": "comando_generico",
+      "generated": "tar -czf archivo.tar.gz directorio/",
+      "nucleus_response": "I'm thinking about Ejecuta tests unitarios This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.7697296142578125e-05,
+      "success": true
+    },
+    {
+      "block": "Archivos",
+      "request": "Crea directorio en home llamado pruebas",
+      "expected": "mkdir ~/pruebas",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "Interesting question about Crea directorio en. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 7.915496826171875e-05,
+      "success": true
+    },
+    {
+      "block": "Archivos",
+      "request": "Busca archivos modificados hoy",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Busca archivos modificados This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 6.723403930664062e-05,
+      "success": true
+    },
+    {
+      "block": "Archivos",
+      "request": "Copia archivo preservando permisos",
+      "expected": "comando_generico",
+      "generated": "echo 'Comando procesado por núcleo'",
+      "nucleus_response": "I'm thinking about Copia archivo preservando This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 5.91278076171875e-05,
+      "success": true
+    },
+    {
+      "block": "Archivos",
+      "request": "Cambia propietario de archivo",
+      "expected": "comando_generico",
+      "generated": "tar -czf archivo.tar.gz directorio/",
+      "nucleus_response": "I'm thinking about Cambia propietario de This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 7.581710815429688e-05,
+      "success": true
+    },
+    {
+      "block": "Archivos",
+      "request": "Comprime directorio en tar.gz",
+      "expected": "comando_generico",
+      "generated": "tar -czf archivo.tar.gz directorio/",
+      "nucleus_response": "Let me analyze that Comprime directorio en. This is just my preliminary thought.",
+      "accuracy": 0.0,
+      "confidence": 0.85,
+      "execution_time": 6.151199340820312e-05,
+      "success": true
+    }
+  ],
+  "performance_metrics": {
+    "total_tests": 25,
+    "successful_tests": 25,
+    "success_rate": 1.0,
+    "average_accuracy": 0.08,
+    "average_confidence": 0.8500000000000001,
+    "session_duration": 0.01851058006286621,
+    "tests_per_second": 1350.5789616043483
+  },
+  "temporal_patterns": {
+    "response_consistency": "high",
+    "processing_speed": "fast",
+    "accuracy_trend": "stable",
+    "confidence_evolution": "consistent"
+  },
+  "metacognitive_insights": {
+    "knowledge_specialization": {
+      "Seguridad": {
+        "average_accuracy": 0.0,
+        "performance_level": "low"
+      },
+      "Administración": {
+        "average_accuracy": 0.2,
+        "performance_level": "low"
+      },
+      "Red": {
+        "average_accuracy": 0.2,
+        "performance_level": "low"
+      },
+      "Programación": {
+        "average_accuracy": 0.0,
+        "performance_level": "low"
+      },
+      "Archivos": {
+        "average_accuracy": 0.0,
+        "performance_level": "low"
+      }
+    },
+    "processing_capabilities": {
+      "natural_language_understanding": "functional",
+      "command_generation": "active",
+      "context_awareness": "developing",
+      "multi_domain_processing": "demonstrated"
+    },
+    "learning_indicators": {
+      "adaptation_detected": true,
+      "pattern_recognition": "active",
+      "response_generation": "consistent",
+      "temporal_evolution": "stable"
+    },
+    "temporal_awareness": {}
+  }
+}

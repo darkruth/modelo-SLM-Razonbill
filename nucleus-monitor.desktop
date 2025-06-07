@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Monitor del Sistema
+Comment=Monitor en tiempo real del núcleo
+Icon=utilities-system-monitor
+Exec=python3 /usr/local/bin/monitoring_app.py
+Categories=System;Monitor;
+Terminal=false
+StartupNotify=true

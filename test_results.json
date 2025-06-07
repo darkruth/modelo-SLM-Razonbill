@@ -1,0 +1,277 @@
+{
+  "session_id": "test_session_1748350022",
+  "timestamp": "2025-05-27T12:47:03.400571",
+  "tests_executed": 20,
+  "results": [
+    {
+      "test_id": 669,
+      "natural_request": "Ordena contenido de un archivo",
+      "expected_command": "sort archivo.txt",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 0.00010609626770019531,
+      "nucleus_response": "I'm thinking about Ordena contenido de This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 299,
+      "natural_request": "Cambia permisos de un archivo a lectura y escritura",
+      "expected_command": "chmod 666 archivo.txt",
+      "generated_command": "rm [parámetros]",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.127357482910156e-05,
+      "nucleus_response": "I'm thinking about Cambia permisos de This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 51,
+      "natural_request": "Verifica el espacio disponible en disco",
+      "expected_command": "df -h",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 7.748603820800781e-05,
+      "nucleus_response": "Let me analyze that Verifica el espacio. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 202,
+      "natural_request": "Crea un nuevo directorio en home con nombre pruebas",
+      "expected_command": "mkdir ~/pruebas",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.747245788574219e-05,
+      "nucleus_response": "Interesting question about Crea un nuevo. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 650,
+      "natural_request": "Extrae columnas específicas de un CSV",
+      "expected_command": "cut -d',' -f1,3 archivo.csv",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.365776062011719e-05,
+      "nucleus_response": "I'm thinking about Extrae columnas específicas This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 120,
+      "natural_request": "Verifica usuarios con shell activo",
+      "expected_command": "grep /bin/bash /etc/passwd",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.079673767089844e-05,
+      "nucleus_response": "I'm thinking about Verifica usuarios con This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 63,
+      "natural_request": "Muestra las variables de entorno",
+      "expected_command": "env",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 5.91278076171875e-05,
+      "nucleus_response": "I'm thinking about Muestra las variables This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 734,
+      "natural_request": "Verifica procesos de un usuario",
+      "expected_command": "ps -u usuario",
+      "generated_command": "ps aux",
+      "accuracy": 0.3333333333333333,
+      "status": "success",
+      "execution_time": 0.00010275840759277344,
+      "nucleus_response": "Let me analyze that Verifica procesos de. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 37,
+      "natural_request": "Reinicia el servicio SSH",
+      "expected_command": "sudo systemctl restart ssh",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.842613220214844e-05,
+      "nucleus_response": "Let me analyze that Reinicia el servicio. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 653,
+      "natural_request": "Cuenta líneas en un archivo de texto",
+      "expected_command": "wc -l archivo.txt",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 0.00014352798461914062,
+      "nucleus_response": "I understand your query about Cuenta líneas en. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 713,
+      "natural_request": "Ejecuta un comando en segundo plano",
+      "expected_command": "comando &",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 8.559226989746094e-05,
+      "nucleus_response": "I'm thinking about Ejecuta un comando This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 781,
+      "natural_request": "Lista procesos que consumen más CPU",
+      "expected_command": "ps aux --sort=-%cpu | head -10",
+      "generated_command": "ps aux",
+      "accuracy": 0.3333333333333333,
+      "status": "success",
+      "execution_time": 4.172325134277344e-05,
+      "nucleus_response": "I'm thinking about Lista procesos que This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 25,
+      "natural_request": "Muestra la información del procesador",
+      "expected_command": "cat /proc/cpuinfo",
+      "generated_command": "rm [parámetros]",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 4.076957702636719e-05,
+      "nucleus_response": "I'm thinking about Muestra la información This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 823,
+      "natural_request": "Lista contenido de un archivo tar",
+      "expected_command": "tar -tf archivo.tar",
+      "generated_command": "tar -czf archivo.tar.gz directorio/",
+      "accuracy": 0.3333333333333333,
+      "status": "success",
+      "execution_time": 3.910064697265625e-05,
+      "nucleus_response": "I'm thinking about Lista contenido de This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 639,
+      "natural_request": "Ordena contenido de un archivo",
+      "expected_command": "sort archivo.txt",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 5.364418029785156e-05,
+      "nucleus_response": "I'm thinking about Ordena contenido de This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 592,
+      "natural_request": "Respalda la base de datos MySQL",
+      "expected_command": "mysqldump -u root -p database > backup.sql",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 5.221366882324219e-05,
+      "nucleus_response": "I'm thinking about Respalda la base This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 544,
+      "natural_request": "Importa datos desde un archivo CSV",
+      "expected_command": "mysql -u root -p database < datos.csv",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 5.030632019042969e-05,
+      "nucleus_response": "I'm thinking about Importa datos desde This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 800,
+      "natural_request": "Monitorea uso de recursos en tiempo real",
+      "expected_command": "top",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 6.008148193359375e-05,
+      "nucleus_response": "Let me analyze that Monitorea uso de. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 903,
+      "natural_request": "Verifica diferencias en archivos",
+      "expected_command": "git diff archivo.txt",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 0.0001220703125,
+      "nucleus_response": "Let me analyze that Verifica diferencias en. This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    },
+    {
+      "test_id": 179,
+      "natural_request": "Analiza logs de seguridad recientes",
+      "expected_command": "tail /var/log/auth.log",
+      "generated_command": "echo 'Comando procesado por núcleo'",
+      "accuracy": 0.0,
+      "status": "success",
+      "execution_time": 5.078315734863281e-05,
+      "nucleus_response": "I'm thinking about Analiza logs de This is just my preliminary thought.",
+      "confidence": 0.85,
+      "nucleus_available": true
+    }
+  ],
+  "temporal_observations": {
+    "session_summary": {
+      "total_tests": 20,
+      "duration": 0.8578641414642334,
+      "success_rate": 1.0,
+      "average_accuracy": 0.05
+    },
+    "pattern_insights": {
+      "patterns_identified": 5
+    },
+    "metacognitive_evolution": {
+      "evolution_detected": true
+    },
+    "compiler_performance": {
+      "performance_level": "good"
+    },
+    "temporal_observations": {
+      "learning_trajectory": {
+        "trajectory": "improving"
+      },
+      "adaptation_patterns": {
+        "patterns": [
+          "quick_learning"
+        ]
+      },
+      "performance_trends": {
+        "trend": "positive"
+      }
+    }
+  }
+}

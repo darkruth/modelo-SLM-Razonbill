@@ -1,0 +1,83 @@
+{
+  "kernel": {
+    "full_info": "Linux a38ec6ec50ff 6.2.16 #1-NixOS SMP PREEMPT_DYNAMIC Tue Jan  1 00:00:00 UTC 1980 x86_64 GNU/Linux",
+    "version": "6.2.16",
+    "architecture": "x86_64"
+  },
+  "operating_system": {
+    "NAME": "Ubuntu",
+    "VERSION": "20.04.2 LTS (Focal Fossa)",
+    "ID": "ubuntu",
+    "ID_LIKE": "debian",
+    "PRETTY_NAME": "Ubuntu 20.04.2 LTS",
+    "VERSION_ID": "20.04",
+    "HOME_URL": "https://www.ubuntu.com/",
+    "SUPPORT_URL": "https://help.ubuntu.com/",
+    "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+    "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+    "VERSION_CODENAME": "focal",
+    "UBUNTU_CODENAME": "focal"
+  },
+  "hardware": {
+    "cpu_details": "Architecture:                       x86_64\nCPU op-mode(s):                     32-bit, 64-bit\nByte Order:                         Little Endian\nAddress sizes:                      48 bits physical, 48 bits virtual\nCPU(s):                             8\nOn-line CPU(s) list:                0-7\nThread(s) per core:                 2\nCore(s) per socket:                 4\nSocket(s):                          1\nNUMA node(s):                       1\nVendor ID:                          AuthenticAMD\nCPU family:                         25\nModel:                              1\nModel name:                         AMD EPYC 7B13\nStepping:                           0\nCPU MHz:                            3049.994\nBogoMIPS:                           6099.98\nHypervisor vendor:                  KVM\nVirtualization type:                full\nL1d cache:                          128 KiB\nL1i cache:                          128 KiB\nL2 cache:                           2 MiB\nL3 cache:                           32 MiB\nNUMA node0 CPU(s):                  0-7\nVulnerability Gather data sampling: Not affected\nVulnerability Itlb multihit:        Not affected\nVulnerability L1tf:                 Not affected\nVulnerability Mds:                  Not affected\nVulnerability Meltdown:             Not affected\nVulnerability Mmio stale data:      Not affected\nVulnerability Retbleed:             Not affected\nVulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling, PBRSB-eIBRS Not affected\nVulnerability Srbds:                Not affected\nVulnerability Tsx async abort:      Not affected\nFlags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save umip vaes vpclmulqdq rdpid fsrm\n",
+    "memory": "              total        used        free      shared  buff/cache   available\nMem:           62Gi        39Gi       5.1Gi        22Mi        17Gi        22Gi\nSwap:            0B          0B          0B\n",
+    "storage": "Filesystem                                            Size  Used Avail Use% Mounted on\noverlay                                                50G   23G   25G  49% /\ntmpfs                                                  64M     0   64M   0% /dev\ntmpfs                                                  16G   16M   16G   1% /io\n/dev/disk/by-label/nixos                               50G   23G   25G  49% /pid2\n/dev/nbd82                                             32G  4.3M   32G   1% /tmp\noverlay                                                32G  4.3M   32G   1% /nix\n/dev/disk/by-id/google-nixmodules-e643c55-us-east1-d   14G   14G     0 100% /mnt/nixmodules\ntmpfs                                                 8.0K     0  8.0K   0% /mnt/ruse\nshm                                                    64M     0   64M   0% /dev/shm\noverlay                                                50G   23G   25G  49% /mnt/cacache/nix\noverlay                                                50G   23G   25G  49% /mnt/cacache/nix/store\ndevtmpfs                                              3.2G     0  3.2G   0% /dev/tty\ntmpfs                                                  32G     0   32G   0% /proc/acpi\ntmpfs                                                  32G     0   32G   0% /proc/scsi\ntmpfs                                                  32G     0   32G   0% /sys/firmware\noverlay                                                32G  4.3M   32G   1% /home/runner\n/dev/nbd22                                            256G  1.1G  253G   1% /home/runner/workspace\n/dev/nbd22                                            256G  1.1G  253G   1% /mnt/nix\noverlay                                               256G  1.1G  253G   1% /nix/store\n"
+  },
+  "shells": {
+    "current_shell": "$SHELL",
+    "bash_version": "GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)"
+  },
+  "cli_tools": {
+    "python3": "Python 3.11.9",
+    "node": "v20.18.1",
+    "npm": "10.8.2",
+    "git": "git version 2.44.1",
+    "curl": "curl 8.7.1 (x86_64-pc-linux-gnu) libcurl/8.7.1 OpenSSL/3.0.13 zlib/1.3.1 brotli/1.1.0 zstd/1.5.6 libidn2/2.3.7 libpsl/0.21.5 libssh2/1.11.0 nghttp2/1.61.0"
+  },
+  "visual_environment": {
+    "kitty_configured": false,
+    "session_configured": false,
+    "design_source": "Picsart_25-05-26_17-25-25-986.png",
+    "color_scheme": {
+      "primary": "#00ffcc (cyan)",
+      "background": "#0a0a0a (negro)",
+      "cursor": "#00ffcc",
+      "selection": "#00ffcc"
+    },
+    "layout_design": {
+      "panel_left_top": "Directory@Razonbilstro",
+      "panel_left_bottom": "Chat Agent",
+      "panel_right_main": "user@razonbilstro-# terminal",
+      "splits_configuration": "Replicado exactamente de imagen original"
+    },
+    "integration_features": {
+      "nucleus_shortcuts": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "shell_aliases": [
+        "nucleus",
+        "pwn",
+        "nstress",
+        "nsystem"
+      ],
+      "prompt_style": "user@razonbilstro-#"
+    }
+  },
+  "nucleus_integration": {
+    "core_files_present": 3,
+    "total_core_files": 4,
+    "training_status": "15,000 pares procesados con neuronas temporales",
+    "pwnagotchi_level": "Nivel 4",
+    "integration_rate": "81.5%",
+    "tools_integrated": 27,
+    "specializations": [
+      "Reconocimiento de redes",
+      "Auditoría WiFi",
+      "Cracking de contraseñas",
+      "Análisis de tráfico"
+    ]
+  }
+}

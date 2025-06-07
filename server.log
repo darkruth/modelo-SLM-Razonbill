@@ -1,0 +1,21 @@
+🎤 NÚCLEO C.A- RAZONBILSTRO - TTS/STT & PWA
+==================================================
+✓ Funciones TTS/STT integradas
+✓ Esferita flotante de voz
+✓ PWA instalable en Android
+✓ Service Worker configurado
+==================================================
+🌐 Servidor: http://localhost:5000
+📱 Para instalar en Android: Menu > Instalar app
+🎙️ Click en esferita azul para usar voz
+==================================================
+ * Serving Flask app 'app_tts_pwa'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.128.85:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 729-527-427

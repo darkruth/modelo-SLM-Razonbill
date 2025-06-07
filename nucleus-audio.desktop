@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Visualizador de Audio
+Comment=Ecualizador y visualizador de espectro
+Icon=multimedia-volume-control
+Exec=kitty --title='Audio Visualizer' -e cava
+Categories=AudioVideo;Audio;
+Terminal=false
+StartupNotify=true

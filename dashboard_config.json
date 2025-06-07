@@ -1,0 +1,63 @@
+{
+  "dashboard_configuration": {
+    "name": "Neurona Temporal Observadora - Dashboard Visual",
+    "version": "1.0",
+    "created": "2025-05-27",
+    "description": "Dashboard visual en tiempo real para monitoreo del Núcleo C.A- Razonbilstro durante evaluaciones masivas",
+    "features": [
+      "Monitoreo de precisión neuronal en vivo",
+      "Seguimiento de confianza del modelo",
+      "Velocidad de procesamiento en tiempo real",
+      "Activación neuronal visual",
+      "Monitoreo de recursos del sistema (CPU/RAM)",
+      "Log temporal de observaciones",
+      "Insights metacognitivos automáticos",
+      "Progreso por bloques de conocimiento",
+      "Métricas de rendimiento dinámicas"
+    ],
+    "components": {
+      "main_template": "templates/live_monitoring.html",
+      "route_handler": "main.py - live_monitoring route",
+      "update_frequency": "3 segundos",
+      "visual_elements": [
+        "Indicadores neurales pulsantes",
+        "Gráficos de progreso circulares",
+        "Stream de datos animado",
+        "Log temporal en tiempo real",
+        "Tarjetas de métricas responsivas"
+      ]
+    },
+    "metrics_tracked": {
+      "neural_precision": "Precisión del núcleo (0.0-1.0)",
+      "confidence_level": "Nivel de confianza (0.0-1.0)", 
+      "processing_speed": "Pruebas por segundo",
+      "neural_activation": "Porcentaje de activación (0-100%)",
+      "cpu_usage": "Uso de CPU (%)",
+      "ram_usage": "Uso de memoria (%)",
+      "active_processes": "Procesos del núcleo activos",
+      "current_block": "Bloque de conocimiento en proceso",
+      "block_progress": "Progreso del bloque actual (%)"
+    },
+    "future_applications": [
+      "Entrenamiento de nuevos dominios de conocimiento",
+      "Evaluaciones masivas de rendimiento",
+      "Monitoreo de sesiones de aprendizaje",
+      "Análisis de comportamiento neuronal",
+      "Debugging de procesos de entrenamiento",
+      "Validación de modelos en tiempo real",
+      "Optimización de hiperparámetros visual"
+    ]
+  },
+  "implementation_notes": {
+    "technology_stack": [
+      "Flask (backend)",
+      "Bootstrap + CSS personalizado (frontend)",
+      "JavaScript para actualización en tiempo real",
+      "Font Awesome para iconografía",
+      "Animaciones CSS para indicadores neurales"
+    ],
+    "deployment": "Compatible con Replit y sistemas locales",
+    "scalability": "Diseñado para manejar datos de evaluaciones masivas",
+    "customization": "Fácilmente personalizable para diferentes tipos de modelos"
+  }
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Núcleo Terminal
+Comment=Terminal del Núcleo C.A- Razonbilstro
+Icon=terminal
+Exec=kitty --config=/etc/razonbilstro/kitty.conf
+Categories=System;Terminal;
+Terminal=false
+StartupNotify=true
