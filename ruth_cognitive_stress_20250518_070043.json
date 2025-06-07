@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "global_score": 0.641312515408082,
+    "global_rating": "Bueno",
+    "strongest_dimension": "language",
+    "weakest_dimension": "synaptic_efficiency",
+    "dimension_scores": {
+      "consciousness": 0.571143463926849,
+      "cognition": 0.6947510040255699,
+      "emotion": 0.6063662734261308,
+      "reasoning": 0.5594512839536261,
+      "language": 0.791342673763336,
+      "comprehension": 0.7263601047328105,
+      "synaptic_efficiency": 0.5397728040282522
+    }
+  },
+  "dimensions": {
+    "consciousness": {
+      "score": 0.571143463926849,
+      "rating": "Satisfactorio",
+      "components": {
+        "connectivity": 0.5250755311685062,
+        "circular_paths": 2,
+        "activation": 0.6393139240526214
+      },
+      "active_modules": [
+        "introspection_engine",
+        "self_mirror",
+        "philosophical_core"
+      ],
+      "circular_references": true,
+      "mean_activity": 0.5425862907305066
+    },
+    "cognition": {
+      "score": 0.6947510040255699,
+      "rating": "Bueno",
+      "task_results": {
+        "Asociaci\u00f3n simple": {
+          "complexity": 0.4127642315790245,
+          "performance": 0.5962833483374027,
+          "connectivity": 0.6906509405985817,
+          "activation": 0.8519838566406417
+        },
+        "Clasificaci\u00f3n categ\u00f3rica": {
+          "complexity": 0.8099682974764384,
+          "performance": 0.712211330104951,
+          "connectivity": 0.624714480395151,
+          "activation": 0.6774576687831311
+        },
+        "Reconocimiento de patrones": {
+          "complexity": 0.6084416674937885,
+          "performance": 0.5967789956092612,
+          "connectivity": 0.8076688114006445,
+          "activation": 0.8944238816511374
+        },
+        "Resoluci\u00f3n de problemas": {
+          "complexity": 0.6102591735911209,
+          "performance": 0.7459018444963379,
+          "connectivity": 0.684031715499052,
+          "activation": 0.7436762454087186
+        }
+      },
+      "processing_efficiency": 0.6947510040255699,
+      "highest_performance": 0.7459018444963379,
+      "lowest_performance": 0.5962833483374027,
+      "performance_variance": 0.1496184961589352
+    },
+    "emotion": {
+      "score": 0.6063662734261308,
+      "rating": "Bueno",
+      "emotion_results": {
+        "alegria": {
+          "valence": 0.23032151399024325,
+          "arousal": 0.22545081929915392,
+          "activations": {
+            "emotion_decomposer": 0.7512093198491492,
+            "dream_mechanism": 0.5970719036870222,
+            "self_mirror": 0.5217491721974391
+          },
+          "coherence": 0.6506351298580403,
+          "valence_coherence": 0.43629757326252594,
+          "arousal_coherence": 0.62551737779059
+        },
+        "tristeza": {
+          "valence": 0.712876065643504,
+          "arousal": 0.27580508904684914,
+          "activations": {
+            "emotion_decomposer": 0.8851955163110753,
+            "dream_mechanism": 0.624965204600129,
+            "self_mirror": 0.43816072709608367
+          },
+          "coherence": 0.6080688090013061,
+          "valence_coherence": 0.6612483532580977,
+          "arousal_coherence": 0.5489766400505635
+        },
+        "enojo": {
+          "valence": 0.25931297770313994,
+          "arousal": 0.3659127840016091,
+          "activations": {
+            "emotion_decomposer": 0.6148727859364366,
+            "dream_mechanism": 0.629668089848911,
+            "self_mirror": 0.660791624356821
+          },
+          "coherence": 0.6057642152347286,
+          "valence_coherence": 0.5060223344842133,
+          "arousal_coherence": 0.5878712007134514
+        },
+        "miedo": {
+          "valence": 0.7380912395362706,
+          "arousal": 0.33440596362736236,
+          "activations": {
+            "emotion_decomposer": 0.6589116097958612,
+            "dream_mechanism": 0.5098814329197019,
+            "self_mirror": 0.5971950347183596
+          },
+          "coherence": 0.5657028265777632,
+          "valence_coherence": 0.6443613439282843,
+          "arousal_coherence": 0.6130923193106029
+        },
+        "sorpresa": {
+          "valence": 0.44027935860873124,
+          "arousal": 0.21007405670131796,
+          "activations": {
+            "emotion_decomposer": 0.8599598393116659,
+            "dream_mechanism": 0.7671904138260142,
+            "self_mirror": 0.5758707046063318
+          },
+          "coherence": 0.5459119082796453,
+          "valence_coherence": 0.43965629114021676,
+          "arousal_coherence": 0.6485604409383835
+        },
+        "calma": {
+          "valence": 0.6246443430505706,
+          "arousal": 0.5441070774868179,
+          "activations": {
+            "emotion_decomposer": 0.7297897247894577,
+            "dream_mechanism": 0.7083235794936248,
+            "self_mirror": 0.6961885540511534
+          },
+          "coherence": 0.7274709184470005,
+          "valence_coherence": 0.6607583978931616,
+          "arousal_coherence": 0.524924463811436
+        }
+      },
+      "emotional_range": 6,
+      "mean_coherence": 0.6063662734261308,
+      "strongest_emotion": "calma",
+      "weakest_emotion": "sorpresa"
+    },
+    "reasoning": {
+      "score": 0.5594512839536261,
+      "rating": "Satisfactorio",
+      "problem_results": {
+        "L\u00f3gica deductiva": {
+          "complexity": 0.6431591487899064,
+          "performance": 0.48044693929901455,
+          "key_activation": 0.8689996254841483,
+          "key_connectivity": 0.6918555111526647,
+          "key_modules": [
+            "philosophical_core",
+            "introspection_engine"
+          ]
+        },
+        "Razonamiento abstracto": {
+          "complexity": 0.690477569269132,
+          "performance": 0.47311512149502144,
+          "key_activation": 0.7068475906960783,
+          "key_connectivity": 0.530866352243571,
+          "key_modules": [
+            "philosophical_core",
+            "introspection_engine"
+          ]
+        },
+        "Inferencia inductiva": {
+          "complexity": 0.8275341854998866,
+          "performance": 0.45433283907484345,
+          "key_activation": 0.6725181704991878,
+          "key_connectivity": 0.6827042530357499,
+          "key_modules": [
+            "philosophical_core",
+            "introspection_engine"
+          ]
+        },
+        "Dilema \u00e9tico": {
+          "complexity": 0.86914773094189,
+          "performance": 0.4881613936461103,
+          "key_activation": 0.6919162441685064,
+          "key_connectivity": 0.5316784393054886,
+          "key_modules": [
+            "philosophical_core",
+            "introspection_engine"
+          ]
+        }
+      },
+      "reasoning_domains": 4,
+      "mean_performance": 0.5594512839536261,
+      "strongest_domain": "Dilema \u00e9tico",
+      "weakest_domain": "Inferencia inductiva",
+      "complexity_correlation": -0.4537684994300185
+    },
+    "language": {
+      "score": 0.791342673763336,
+      "rating": "Muy bueno",
+      "task_results": {
+        "Generaci\u00f3n de texto": {
+          "complexity": 0.7173530513788784,
+          "performance": 0.9142120526325395,
+          "primary_module": "gans_lstm_core",
+          "primary_activation": 0.7642319360436642,
+          "tokenizer_available": true
+        },
+        "Comprensi\u00f3n sem\u00e1ntica": {
+          "complexity": 0.7710304756606988,
+          "performance": 0.8351638557685496,
+          "primary_module": "gans_lstm_core",
+          "primary_activation": 0.8827849775911685,
+          "tokenizer_available": true
+        },
+        "Abstracci\u00f3n conceptual": {
+          "complexity": 0.64759795182234,
+          "performance": 0.9030350652404169,
+          "primary_module": "gans_lstm_core",
+          "primary_activation": 0.7211933893132869,
+          "tokenizer_available": true
+        },
+        "Transformaci\u00f3n sint\u00e1ctica": {
+          "complexity": 0.6715385524273901,
+          "performance": 0.657571283242057,
+          "primary_module": "gans_lstm_core",
+          "primary_activation": 0.8974765079809794,
+          "tokenizer_available": true
+        }
+      },
+      "language_domains": 4,
+      "mean_performance": 0.791342673763336,
+      "strongest_domain": "Generaci\u00f3n de texto",
+      "weakest_domain": "Transformaci\u00f3n sint\u00e1ctica",
+      "vocabulary": {
+        "size": 26105,
+        "has_fibonacci": true,
+        "max_token_length": 12
+      },
+      "tokenizer_available": true
+    },
+    "comprehension": {
+      "score": 0.7263601047328105,
+      "rating": "Muy bueno",
+      "scenario_results": {
+        "Contexto social": {
+          "complexity": 0.6503865524235711,
+          "performance": 0.7881822550826407,
+          "key_factors": [
+            "memoria",
+            "empat\u00eda"
+          ],
+          "key_modules": [
+            "memory_discriminator",
+            "introspection_engine"
+          ],
+          "key_activation": 0.6227638909706887,
+          "key_connectivity": 0.7279539007290088
+        },
+        "An\u00e1lisis sist\u00e9mico": {
+          "complexity": 0.6719776190836065,
+          "performance": 0.6207888075986562,
+          "key_factors": [
+            "memoria",
+            "empat\u00eda"
+          ],
+          "key_modules": [
+            "memory_discriminator",
+            "introspection_engine"
+          ],
+          "key_activation": 0.6037846741089256,
+          "key_connectivity": 0.5995450222884107
+        },
+        "Comprensi\u00f3n narrativa": {
+          "complexity": 0.7310416279347585,
+          "performance": 0.7483849505046571,
+          "key_factors": [
+            "memoria",
+            "empat\u00eda"
+          ],
+          "key_modules": [
+            "memory_discriminator",
+            "introspection_engine"
+          ],
+          "key_activation": 0.7471638734877639,
+          "key_connectivity": 0.7216969236900671
+        },
+        "Interpretaci\u00f3n simb\u00f3lica": {
+          "complexity": 0.8901105215147833,
+          "performance": 0.8351916872532924,
+          "key_factors": [
+            "memoria",
+            "empat\u00eda"
+          ],
+          "key_modules": [
+            "memory_discriminator",
+            "introspection_engine"
+          ],
+          "key_activation": 0.6604443773797727,
+          "key_connectivity": 0.7462973248802571
+        }
+      },
+      "comprehension_domains": 4,
+      "mean_performance": 0.7263601047328105,
+      "strongest_domain": "Interpretaci\u00f3n simb\u00f3lica",
+      "weakest_domain": "An\u00e1lisis sist\u00e9mico",
+      "key_factors_coverage": [
+        "memoria",
+        "empat\u00eda",
+        "l\u00f3gica",
+        "creatividad"
+      ]
+    },
+    "synaptic_efficiency": {
+      "score": 0.5397728040282522,
+      "rating": "Satisfactorio",
+      "network_stats": {
+        "nodes": 14,
+        "links": 50,
+        "density": 0.41695369084612144,
+        "avg_strength": 0.6298598219158897,
+        "connection_distribution": {
+          "mean": 4.106098118838283,
+          "std": 2.223144618137079,
+          "cv": 0.28973583111634504,
+          "min": 2,
+          "max": 9
+        }
+      },
+      "component_scores": {
+        "density_score": 0.5042076112417123,
+        "strength_score": 0.5667474217594621,
+        "distribution_score": 0.5908816348378312
+      },
+      "bottlenecks": [
+        "memory_discriminator",
+        "philosophical_core"
+      ],
+      "isolated_nodes": []
+    }
+  },
+  "timestamp": "2025-05-18T07:00:43.779586"
+}
